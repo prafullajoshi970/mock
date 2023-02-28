@@ -50,11 +50,11 @@ function App() {
     <div className="App">
 
       <div className='leftimgcard'>
-        <img className='leftimg' src={img1} alt="#1" style={{ filter: changeImg === 0 ? 'none' : 'blur(1.5px)' }}></img>
-        <img className='leftimg' src={img2} alt="#1" style={{ filter: changeImg === 1 ? 'none' : 'blur(1.5px)' }}></img>
-        <img className='leftimg' src={img3} alt="#1" style={{ filter: changeImg === 2 ? 'none' : 'blur(1.5px)' }}></img>
-        <img className='leftimg' src={img4} alt="#1" style={{ filter: changeImg === 3 ? 'none' : 'blur(1.5px)' }}></img>
-        <img className='leftimg' src={img5} alt="#1" style={{ filter: changeImg === 4 ? 'none' : 'blur(1.5px)' }}></img></div>
+        <img className='leftimg' src={img1} alt="#1" style={{ filter: changeImg === 0 ? 'none' : 'blur(3px)' }}></img>
+        <img className='leftimg' src={img2} alt="#1" style={{ filter: changeImg === 1 ? 'none' : 'blur(3px)' }}></img>
+        <img className='leftimg' src={img3} alt="#1" style={{ filter: changeImg === 2 ? 'none' : 'blur(3px)' }}></img>
+        <img className='leftimg' src={img4} alt="#1" style={{ filter: changeImg === 3 ? 'none' : 'blur(3px)' }}></img>
+        <img className='leftimg' src={img5} alt="#1" style={{ filter: changeImg === 4 ? 'none' : 'blur(3px)' }}></img></div>
 
       <div className='middleCard'>
         <button type='submit' onClick={prevImg} >prev</button>
@@ -69,11 +69,11 @@ function App() {
 
       <div className='rightimgcard'>
 
-        <img className='rightimg' src={img6} alt="#1" style={{ filter: changeImg === 5 ? 'none' : 'blur(1.5px)' }} ></img>
-        <img className='rightimg' src={img7} alt="#1" style={{ filter: changeImg === 6 ? 'none' : 'blur(1.5px)' }}></img>
-        <img className='rightimg' src={img8} alt="#1" style={{ filter: changeImg === 7 ? 'none' : 'blur(1.5px)' }}></img>
-        <img className='rightimg' src={img9} alt="#1" style={{ filter: changeImg === 8 ? 'none' : 'blur(1.5px)' }}></img>
-        <img className='rightimg' src={img1} alt="#1" style={{ filter: changeImg === 0 ? 'none' : 'blur(1.5px)' }}></img>
+        <img className='rightimg' src={img6} alt="#1" style={{ filter: changeImg === 5 ? 'none' : 'blur(3px)' }} ></img>
+        <img className='rightimg' src={img7} alt="#1" style={{ filter: changeImg === 6 ? 'none' : 'blur(3px)' }}></img>
+        <img className='rightimg' src={img8} alt="#1" style={{ filter: changeImg === 7 ? 'none' : 'blur(3px)' }}></img>
+        <img className='rightimg' src={img9} alt="#1" style={{ filter: changeImg === 8 ? 'none' : 'blur(3px)' }}></img>
+        <img className='rightimg' src={img1} alt="#1" style={{ filter: changeImg === 0 ? 'none' : 'blur(3px)' }}></img>
 
       </div>
 
