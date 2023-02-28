@@ -1,13 +1,94 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-image:url('https://images.unsplash.com/photo-1607743882420-4412ee605bac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGdyZWVuY2hlY2tzJTIwb24lMjBibGFja3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60') ;
+  background-size: 100%;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card{
+  width:25rem;
+  height:14rem;
+  display:flex;
+ 
+}
+img{
+  width:4.4rem;
+  height:4.4rem;
+  border-radius: 50%;
+ border: 2px solid black;
+ margin:1rem;
+}
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.middleCard{
+  display: flex;
+  flex-direction: row;
+ color:antiquewhite;
+ backdrop-filter: blur(15px);
+ background-color: rgba(255,255,255,0.2);
+ border-radius: 5px;
+ box-shadow: 0 15px 25px rgba(129,124,124,0.2);
+ position: relative;
+ bottom:3rem;
+}
+button{
+  height:2.8rem;
+  border-radius: 50%;
+  position: relative;
+  top:4.2rem;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 15px 25px rgba(129,124,124,0.2);
+  border: 1px solid white;
+  background-color: transparent;
+  color: antiquewhite;
+  margin:2px;
+  padding:2px;
+}
+.leftimg,.rightimg {
+  width:4.37rem;
+  height:4.37rem;
+  border-radius: 50%;
+  border:2px solid green;
+ margin:0.9rem;
+ position: relative;
+ bottom:1rem;
+ background-color: rgba(255,255,255,0.2);
+ 
+}
+p{
+  font-size: 0.9rem;
+  margin:1rem;
+  padding:1rem
+}
+h4{
+  margin-left:1rem;
+  color:#EDF1FF
+}
+.header{
+  display: flex;
+  justify-content: center;
+}
+.parahead{
+  color:grey
+}
+.footer{
+  width:6.25rem;
+  height:2.3rem;
+  border-radius: 5px;
+  background-color: rgb(45, 139, 45);
+  align-items: center;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 7rem;
+ 
+}
+.footerdiv{
+  display: flex;
+  justify-content: center;
+  
+}
+.rightimgcard{
+  padding: 2rem;
 }
