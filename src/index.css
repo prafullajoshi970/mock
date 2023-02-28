@@ -81,7 +81,8 @@ h4{
   display: flex;
   justify-content: center;
   position: relative;
-  bottom: 3rem;
+ right:2rem;
+ top:2rem
  
 }
 .footerdiv{
