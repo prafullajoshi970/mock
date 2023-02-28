@@ -14,9 +14,9 @@ function App() {
   const [changeImg, setchangeImg] = useState(0)
 
   const [imgData, setimageData] = useState([img1, img2, img3, img4, img5, img6, img7, img8, img9])
-  
+  console.log(setimageData)
   const [Name, setName] = useState(["Anushka Bhatiya", "Genelia Rutherford", "Mangesh Verma ", "Sara Khan", "Ganesh Dixit", "Alia Jaiswal", "Robert Smith", "Chris Jordan", "Priya Sharma"])
- 
+  console.log(setName)
   const [experiance, setExperiance] = useState(["Geekster is an excellent platform for learning new software development technologies to crack interviews at reputed companies. Mentors solve doubts in every possible way",
     "Geekster taught me in months what years of college work couldn't teach me. They honed my technical and non-technical skills, build my confidence and gave me a flavor of what it would look like working in the industry. The mock interviews gruelled me a lot before the actual interview and hence I went to interview knowing what to expect. Today I am successfully placed a a software developer at Bluewud",
     "Geekster is an excellent platform for learning new software development technologies to crack interviews at reputed companies. Mentors solve doubts in every possible way",
@@ -27,6 +27,7 @@ function App() {
     "Geekster taught me in months what years of college work couldn't teach me. They honed my technical and non-technical skills, build my confidence and gave me a flavor of what it would look like working in the industry. The mock interviews gruelled me a lot before the actual interview and hence I went to interview knowing what to expect. Today I am successfully placed a a software developer at Bluewud", "Geekster is an excellent platform for learning new software development technologies to crack interviews at reputed companies. Mentors solve doubts in every possible way",
     "Geekster taught me in months what years of college work couldn't teach me. They honed my technical and non-technical skills, build my confidence and gave me a flavor of what it would look like working in the industry. The mock interviews gruelled me a lot before the actual interview and hence I went to interview knowing what to expect. Today I am successfully placed a a software developer at Bluewud",
   ])
+  console.log(setExperiance)
 
   const nextImg = () => {
     if (changeImg < 8) { setchangeImg(changeImg + 1) } else {
@@ -45,7 +46,7 @@ function App() {
 
     <div className='header'><p className='parahead'>Here it from the ones who have been his journey already</p>
     </div>
-    
+
     <div className="App">
 
       <div className='leftimgcard'>
