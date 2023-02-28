@@ -29,8 +29,7 @@ img{
  background-color: rgba(255,255,255,0.2);
  border-radius: 5px;
  box-shadow: 0 15px 25px rgba(129,124,124,0.2);
- position: relative;
- bottom:3rem;
+
 }
 button{
   height:2.8rem;
